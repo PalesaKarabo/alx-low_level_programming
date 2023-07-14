@@ -7,13 +7,10 @@
  */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int !;
+	char c;
 
-	for (! = 0; ! < 26; !++)
-	{
-		putchar(alp[i]);
-	}
-	putcher('\n');
+	for (c = 'a'; c <= 'z'; c++)
+	putcher(c);
+	putchar('\n');
 	return (0);
 }
