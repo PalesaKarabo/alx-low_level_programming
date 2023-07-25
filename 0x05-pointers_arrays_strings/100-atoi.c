@@ -3,7 +3,7 @@
 /**
  * _atoi - writes a function that converts a string to an interger
  * @s: The pointer to convert
- * Return:  A nt
+ * Return:  A int
  */
 
 int _atoi(char *s)
