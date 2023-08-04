@@ -1,4 +1,4 @@
 #!bin/bash
-gcc -Wall -pedantic -Werriot -Wextra -c *.c
-ar -rc liball.a *_o
+gcc -Wall -pedantic -Werrior -Wextra -c *.c
+ar -rc liball.a *.o
 ranlib liball.a
