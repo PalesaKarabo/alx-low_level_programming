@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcat - concentrates twonstrings
+ *_strncat - concentrates twonstrings
  * using at most n bytes from src
  * @dest: input value
  * @src: input value
@@ -8,7 +8,7 @@
  *
  * Return: dest
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int j;
