@@ -58,8 +58,7 @@ void close_file(int fd)
  */
 int main(int argc, char *argv[])
 {
-	int from, to, r, w;
-{
+
 	int from, to, r, w;
 	char *buffer;
 
@@ -93,7 +92,7 @@ int main(int argc, char *argv[])
 		}
 
 		r = read(from, buffer, 1024);
-		to = open(argv[2], 0_WRONLY | O_APPEND);
+		to = open(argv[2], O_WRONLY | O_APPEND);
 
 	} while (r > 0);
 
